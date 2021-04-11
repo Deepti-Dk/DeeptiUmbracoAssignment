@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\deept\\Desktop\\Umbraco\\UmbracoAssignment\\Deepti.Core\\Deepti.Core.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\deept\\Desktop\\Umbraco\\UmbracoAssignment\\Deepti.Core\\Deepti.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\deept\\Desktop\\Umbraco\\UmbracoAssignment\\Deepti.Core\\Deepti.Core.csproj",
+        "projectName": "Deepti.Core",
+        "projectPath": "c:\\Users\\deept\\Desktop\\Umbraco\\UmbracoAssignment\\Deepti.Core\\Deepti.Core.csproj",
+        "packagesPath": "C:\\Users\\deept\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\deept\\Desktop\\Umbraco\\UmbracoAssignment\\Deepti.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\deept\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "UmbracoCms.Core": {
+              "target": "Package",
+              "version": "[8.12.2, )"
+            },
+            "UmbracoCms.Web": {
+              "target": "Package",
+              "version": "[8.12.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

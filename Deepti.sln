@@ -1,0 +1,48 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Deepti.Web", "Deepti.Web\", "{110FC9CF-33D6-45BA-BE6F-8B263F9F8B59}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2083"
+		Debug.AspNetCompiler.PhysicalPath = "Deepti.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2083\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2083"
+		Release.AspNetCompiler.PhysicalPath = "Deepti.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2083\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2083"
+	SlnRelativePath = "Deepti.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{AEAFDB97-DDB9-4760-A19A-06BF922EDC73} = {AEAFDB97-DDB9-4760-A19A-06BF922EDC73}
+	EndProjectSection	
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deepti.Core", "Deepti.Core\Deepti.Core.csproj", "{AEAFDB97-DDB9-4760-A19A-06BF922EDC73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+	{110FC9CF-33D6-45BA-BE6F-8B263F9F8B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+	{110FC9CF-33D6-45BA-BE6F-8B263F9F8B59}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+	{AEAFDB97-DDB9-4760-A19A-06BF922EDC73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+	{AEAFDB97-DDB9-4760-A19A-06BF922EDC73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	{AEAFDB97-DDB9-4760-A19A-06BF922EDC73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	{AEAFDB97-DDB9-4760-A19A-06BF922EDC73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
